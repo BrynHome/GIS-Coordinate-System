@@ -1,2 +1,9 @@
 # GIS Coordinate System
-Program that is able to create and maintain a database of imported GIS records. The program will index these records into a PR Quadtree and Quadratic Hashtable to support search features forrecords that fit geographic coordinates, feature and state names, and fall within a geographical region. 
+## Description  
+System that indexes and provides search features for a file of GIS records.  
+The system makes use of several in-memory index data structures to support:
+- Importing new GIS records into the database file
+- Retrieving data for all GIS records matching given geographic coordinates
+- Retrieving data for all GIS records matching matching a given feature name and state
+- Retrieving data for all GIS records matching that fall within a given rectangular geographic region
+- Display the in-memory indices in a human-readable manner
